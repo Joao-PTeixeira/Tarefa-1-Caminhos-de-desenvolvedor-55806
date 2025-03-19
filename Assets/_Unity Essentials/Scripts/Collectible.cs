@@ -24,8 +24,8 @@ public class Collectible : MonoBehaviour
 
 
     // Destroy the collectible
-    Destroy(gameObject);
-    Instantiate(onCollectEffect, transform.position, transform.rotation);
+        Destroy(gameObject);
+        Instantiate(onCollectEffect, transform.position, transform.rotation);
         }
     }
 }
